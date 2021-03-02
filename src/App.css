@@ -1,0 +1,26 @@
+.App {
+  text-align: left;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.pie__chart{
+  display: flex;
+  justify-content: space-between;
+}
+.item__left{
+  flex:1;
+  padding: 20px;
+  background-color:silver;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+@media (max-width: 1190px){
+  .item__left{
+    flex-direction: row;
+  }
+}

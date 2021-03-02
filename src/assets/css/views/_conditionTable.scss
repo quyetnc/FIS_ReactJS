@@ -1,0 +1,53 @@
+.container {
+  > .label-header {
+    margin: 10px 0;
+
+    div {
+      padding: 0;
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: none;
+        }
+        > h1 {
+          color: #f07933;
+          &:hover {
+            color: #0087bf;
+          }
+        }
+      }
+    }
+  }
+
+  .search-area {
+    div:first-child {
+      padding-right: 0;
+    }
+    div:nth-child(2) {
+      padding-right: 0;
+    }
+    div:nth-child(3) {
+      padding-left: 15px;
+      padding-right: 0;
+      button {
+        margin-top: 31px;
+      }
+      > button:first-child {
+        margin-right: 10px;
+      }
+      > button:nth-child(2) {
+        padding: 6px 20px;
+      }
+    }
+  }
+
+  .table {
+    > div:first-child {
+      margin-top: 40px;
+    }
+
+    table {
+      text-align: center;
+    }
+  }
+}
